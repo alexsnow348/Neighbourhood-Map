@@ -1,10 +1,10 @@
 # Neighbourhood Map
 
-Welcome to Malaysia,
+Welcome to Malaysia!
 
 ## Configuration
 
-In order to use the application you need to create an Google Map API account and a Foursquare account to use thair API.
+In order to use the application you need to create an Google Map API account and a Foursquare account to use their APIs.
 
 Now set your Google Map API key inside `index.html` in line 35.
 You also have to set your client_id and client_secret for the Foursquare API inside `js/script.js` at the top of the file.
