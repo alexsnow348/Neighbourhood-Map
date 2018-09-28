@@ -1,0 +1,77 @@
+* {
+    box-sizing:border-box;
+}
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container, .options-box, #map {
+    height: 100%;
+}
+
+.options-box {
+    float: left;
+    padding-left: 20px;
+    width: 15%;
+    min-width: 130px;
+    background-color: lightgrey;
+}
+
+.options-box button {
+    padding: 5px;
+}
+
+.restaurant-info {
+    font-size: 15px;
+}
+
+#pano {
+    width: 450px;
+    height: 350px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+input {
+    width: 90%;
+}
+
+@media screen and (max-width: 400px){
+    .details span {
+        font-size: 15px;
+    }
+
+    .options-box {
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .details {
+        display: none;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .options-box {
+        padding: 0 0 0 5px;
+    }
+}
